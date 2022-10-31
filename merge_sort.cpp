@@ -13,8 +13,7 @@ void merge(int array[], int const left, int const mid,
     // Create temp arrays
     auto *leftArray = new int[subArrayOne],
          *rightArray = new int[subArrayTwo];
- 
-    // Copy data to temp arrays leftArray[] and rightArray[]
+   // Copy data to temp arrays leftArray[] and rightArray[]
     for (auto i = 0; i < subArrayOne; i++)
         leftArray[i] = array[left + i];
     for (auto j = 0; j < subArrayTwo; j++)
